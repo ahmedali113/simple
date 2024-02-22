@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Example</title>
+<style>
+  /* CSS styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Simple Example</h1>
+  <button class="button" onclick="changeText()">Click me!</button>
+  <p id="demo">Hello, World!</p>
+</div>
+
+<script>
+  // JavaScript code
+  function changeText() {
+    document.getElementById("demo").innerText = "Text changed!";
+  }
+</script>
+
+</body>
+</html>
